@@ -53,8 +53,8 @@ int main(int argc, char *argv[])
   std::vector<std::string> minimizers;
   std::vector<std::string> leftEndMin;
   std::vector<std::string> rightEndMin;
-  w = (int)(argv[2][0] - '0');
-  k = (int)(argv[3][0] - '0');
+  w = (int)(argv[2][1] - '0');
+  k = (int)(argv[3][1] - '0');
   l = w+k-1;
 
   std::cout << "w=" << w << ", k=" << k << ", l=" << l << std::endl;
@@ -79,7 +79,7 @@ int main(int argc, char *argv[])
   //Find interior minimizers
   for(int i=0; i<(int)genome.size()-l+1; i++){
     //std::cout << minimizer(genom.substr(i,k+w-1)) << std::endl;
-    minimizers.push_back(minimizer(genome.substr(i,k+w-1)));
+    minimizers.push_back(minimizer(genome.substr(i,l)));
   }
 
   //Find right end minimizers

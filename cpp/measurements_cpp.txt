@@ -1,0 +1,241 @@
+[bebox@kutija cgmemtime]$ ./cgmemtime -o measurements.txt ./minimizer tests/test1.txt 3 3 
+w=3, k=3, l=5
+Loaded 3000 chars from string!
+Stored 1590 minimizers to output.txt
+Child user:    0.010 s
+Child sys :    0.000 s
+Child wall:    0.010 s
+Child high-water RSS                    : 3196 KiB
+[bebox@kutija cgmemtime]$ ./cgmemtime -o measurements.txt ./minimizer tests/test2.txt 3 3 
+w=3, k=3, l=5
+Loaded 11907 chars from string!
+Stored 6214 minimizers to output.txt
+Child user:    0.033 s
+Child sys :    0.002 s
+Child wall:    0.035 s
+Child high-water RSS                    : 3564 KiB
+[bebox@kutija cgmemtime]$ ./cgmemtime -o measurements.txt ./minimizer tests/test3.txt 3 3 
+w=3, k=3, l=5
+Loaded 89607 chars from string!
+Stored 46884 minimizers to output.txt
+Child user:    0.151 s
+Child sys :    0.003 s
+Child wall:    0.154 s
+Child high-water RSS                    : 7016 KiB
+[bebox@kutija cgmemtime]$ ./cgmemtime -o measurements.txt ./minimizer tests/test4.txt 3 3 
+w=3, k=3, l=5
+Loaded 304135 chars from string!
+Stored 159442 minimizers to output.txt
+Child user:    0.387 s
+Child sys :    0.008 s
+Child wall:    0.398 s
+Child high-water RSS                    : 19788 KiB
+[bebox@kutija cgmemtime]$ ./cgmemtime -o measurements.txt ./minimizer tests/test5.txt 3 3 
+w=3, k=3, l=5
+Loaded 448112 chars from string!
+Stored 234999 minimizers to output.txt
+Child user:    0.544 s
+Child sys :    0.012 s
+Child wall:    0.555 s
+Child high-water RSS                    : 19936 KiB
+[bebox@kutija cgmemtime]$ ./cgmemtime -o measurements.txt ./minimizer tests/test6.txt 3 3 
+w=3, k=3, l=5
+Loaded 479852 chars from string!
+Stored 251586 minimizers to output.txt
+Child user:    0.567 s
+Child sys :    0.010 s
+Child wall:    0.576 s
+Child high-water RSS                    : 20276 KiB
+[bebox@kutija cgmemtime]$ ./cgmemtime -o measurements.txt ./minimizer tests/test7.txt 3 3 
+w=3, k=3, l=5
+Loaded 540452 chars from string!
+Stored 283480 minimizers to output.txt
+Child user:    0.670 s
+Child sys :    0.013 s
+Child wall:    0.687 s
+Child high-water RSS                    : 36840 KiB
+[bebox@kutija cgmemtime]$ ./cgmemtime -o measurements.txt ./minimizer tests/test8.txt 3 3 
+w=3, k=3, l=5
+Loaded 631133 chars from string!
+Stored 330929 minimizers to output.txt
+Child user:    0.755 s
+Child sys :    0.011 s
+Child wall:    0.765 s
+Child high-water RSS                    : 36960 KiB
+[bebox@kutija cgmemtime]$ ./cgmemtime -o measurements.txt ./minimizer tests/test9.txt 3 3 
+w=3, k=3, l=5
+Loaded 765053 chars from string!
+Stored 400903 minimizers to output.txt
+Child user:    0.969 s
+Child sys :    0.019 s
+Child wall:    0.991 s
+Child high-water RSS                    : 37000 KiB
+[bebox@kutija cgmemtime]$ ./cgmemtime -o measurements.txt ./minimizer tests/test10.txt 3 3 
+w=3, k=3, l=5
+Loaded 926978 chars from string!
+Stored 485710 minimizers to output.txt
+Child user:    1.084 s
+Child sys :    0.013 s
+Child wall:    1.097 s
+Child high-water RSS                    : 37004 KiB
+[bebox@kutija cgmemtime]$ ./cgmemtime -o measurements.txt ./minimizer tests/test1.txt 5 3 
+w=5, k=3, l=7
+Loaded 3000 chars from string!
+Stored 1049 minimizers to output.txt
+Child user:    0.018 s
+Child sys :    0.002 s
+Child wall:    0.020 s
+Child high-water RSS                    : 3300 KiB
+[bebox@kutija cgmemtime]$ ./cgmemtime -o measurements.txt ./minimizer tests/test2.txt 5 3 
+w=5, k=3, l=7
+Loaded 11907 chars from string!
+Stored 4100 minimizers to output.txt
+Child user:    0.040 s
+Child sys :    0.001 s
+Child wall:    0.041 s
+Child high-water RSS                    : 3504 KiB
+[bebox@kutija cgmemtime]$ ./cgmemtime -o measurements.txt ./minimizer tests/test3.txt 5 3 
+w=5, k=3, l=7
+Loaded 89607 chars from string!
+Stored 31136 minimizers to output.txt
+Child user:    0.209 s
+Child sys :    0.001 s
+Child wall:    0.210 s
+Child high-water RSS                    : 7180 KiB
+[bebox@kutija cgmemtime]$ ./cgmemtime -o measurements.txt ./minimizer tests/test4.txt 5 3 
+w=5, k=3, l=7
+Loaded 304135 chars from string!
+Stored 105924 minimizers to output.txt
+Child user:    0.837 s
+Child sys :    0.007 s
+Child wall:    0.844 s
+Child high-water RSS                    : 19828 KiB
+[bebox@kutija cgmemtime]$ ./cgmemtime -o measurements.txt ./minimizer tests/test5.txt 5 3 
+w=5, k=3, l=7
+Loaded 448112 chars from string!
+Stored 156151 minimizers to output.txt
+Child user:    0.910 s
+Child sys :    0.006 s
+Child wall:    0.916 s
+Child high-water RSS                    : 19968 KiB
+[bebox@kutija cgmemtime]$ ./cgmemtime -o measurements.txt ./minimizer tests/test6.txt 5 3 
+w=5, k=3, l=7
+Loaded 479852 chars from string!
+Stored 167184 minimizers to output.txt
+Child user:    0.983 s
+Child sys :    0.012 s
+Child wall:    0.994 s
+Child high-water RSS                    : 20276 KiB
+[bebox@kutija cgmemtime]$ ./cgmemtime -o measurements.txt ./minimizer tests/test7.txt 5 3 
+w=5, k=3, l=7
+Loaded 540452 chars from string!
+Stored 188490 minimizers to output.txt
+Child user:    1.087 s
+Child sys :    0.011 s
+Child wall:    1.097 s
+Child high-water RSS                    : 36816 KiB
+[bebox@kutija cgmemtime]$ ./cgmemtime -o measurements.txt ./minimizer tests/test8.txt 5 3 
+w=5, k=3, l=7
+Loaded 631133 chars from string!
+Stored 220130 minimizers to output.txt
+Child user:    1.237 s
+Child sys :    0.013 s
+Child wall:    1.249 s
+Child high-water RSS                    : 36860 KiB
+[bebox@kutija cgmemtime]$ ./cgmemtime -o measurements.txt ./minimizer tests/test9.txt 5 3 
+w=5, k=3, l=7
+Loaded 765053 chars from string!
+Stored 266626 minimizers to output.txt
+Child user:    1.501 s
+Child sys :    0.015 s
+Child wall:    1.515 s
+Child high-water RSS                    : 37020 KiB
+[bebox@kutija cgmemtime]$ ./cgmemtime -o measurements.txt ./minimizer tests/test10.txt 5 3 
+w=5, k=3, l=7
+Loaded 926978 chars from string!
+Stored 323106 minimizers to output.txt
+Child user:    1.828 s
+Child sys :    0.017 s
+Child wall:    1.847 s
+Child high-water RSS                    : 37148 KiB
+[bebox@kutija cgmemtime]$ ./cgmemtime -o measurements.txt ./minimizer tests/test1.txt 10 10 
+w=1, k=1, l=1
+Loaded 3000 chars from string!
+Stored 2205 minimizers to output.txt
+Child user:    0.005 s
+Child sys :    0.001 s
+Child wall:    0.006 s
+Child high-water RSS                    : 3304 KiB
+[bebox@kutija cgmemtime]$ ./cgmemtime -o measurements.txt ./minimizer tests/test2.txt 10 10 
+w=1, k=1, l=1
+Loaded 11907 chars from string!
+Stored 8751 minimizers to output.txt
+Child user:    0.012 s
+Child sys :    0.006 s
+Child wall:    0.018 s
+Child high-water RSS                    : 3524 KiB
+[bebox@kutija cgmemtime]$ ./cgmemtime -o measurements.txt ./minimizer tests/test3.txt 10 10 
+w=1, k=1, l=1
+Loaded 89607 chars from string!
+Stored 65533 minimizers to output.txt
+Child user:    0.057 s
+Child sys :    0.006 s
+Child wall:    0.064 s
+Child high-water RSS                    : 7264 KiB
+[bebox@kutija cgmemtime]$ ./cgmemtime -o measurements.txt ./minimizer tests/test4.txt 10 10 
+w=1, k=1, l=1
+Loaded 304135 chars from string!
+Stored 223341 minimizers to output.txt
+Child user:    0.198 s
+Child sys :    0.010 s
+Child wall:    0.207 s
+Child high-water RSS                    : 19820 KiB
+[bebox@kutija cgmemtime]$ ./cgmemtime -o measurements.txt ./minimizer tests/test5.txt 10 10 
+w=1, k=1, l=1
+Loaded 448112 chars from string!
+Stored 329245 minimizers to output.txt
+Child user:    0.298 s
+Child sys :    0.014 s
+Child wall:    0.312 s
+Child high-water RSS                    : 19916 KiB
+[bebox@kutija cgmemtime]$ ./cgmemtime -o measurements.txt ./minimizer tests/test6.txt 10 10 
+w=1, k=1, l=1
+Loaded 479852 chars from string!
+Stored 352583 minimizers to output.txt
+Child user:    0.288 s
+Child sys :    0.006 s
+Child wall:    0.294 s
+Child high-water RSS                    : 20268 KiB
+[bebox@kutija cgmemtime]$ ./cgmemtime -o measurements.txt ./minimizer tests/test7.txt 10 10 
+w=1, k=1, l=1
+Loaded 540452 chars from string!
+Stored 397751 minimizers to output.txt
+Child user:    0.331 s
+Child sys :    0.014 s
+Child wall:    0.345 s
+Child high-water RSS                    : 36792 KiB
+[bebox@kutija cgmemtime]$ ./cgmemtime -o measurements.txt ./minimizer tests/test8.txt 10 10 
+w=1, k=1, l=1
+Loaded 631133 chars from string!
+Stored 465038 minimizers to output.txt
+Child user:    0.364 s
+Child sys :    0.015 s
+Child wall:    0.382 s
+Child high-water RSS                    : 36708 KiB
+[bebox@kutija cgmemtime]$ ./cgmemtime -o measurements.txt ./minimizer tests/test9.txt 10 10 
+w=1, k=1, l=1
+Loaded 765053 chars from string!
+Stored 563062 minimizers to output.txt
+Child user:    0.443 s
+Child sys :    0.024 s
+Child wall:    0.466 s
+Child high-water RSS                    : 37032 KiB
+[bebox@kutija cgmemtime]$ ./cgmemtime -o measurements.txt ./minimizer tests/test10.txt 10 10 
+w=1, k=1, l=1
+Loaded 926978 chars from string!
+Stored 683151 minimizers to output.txt
+Child user:    0.507 s
+Child sys :    0.017 s
+Child wall:    0.524 s
+Child high-water RSS                    : 37220 KiB
+
