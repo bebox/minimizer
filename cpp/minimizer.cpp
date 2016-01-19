@@ -53,8 +53,10 @@ int main(int argc, char *argv[])
   std::vector<std::string> minimizers;
   std::vector<std::string> leftEndMin;
   std::vector<std::string> rightEndMin;
-  w = (int)(argv[2][0] - '0');
-  k = (int)(argv[3][0] - '0');
+  //w = (int)(argv[2][0] - '0');
+  //k = (int)(argv[3][0] - '0');
+  w = atoi(argv[2]);
+  k = atoi(argv[3]);
   l = w+k-1;
 
   std::cout << "w=" << w << ", k=" << k << ", l=" << l << std::endl;
