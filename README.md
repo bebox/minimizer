@@ -1,47 +1,47 @@
 # minimizer
-Implementation of minimizer algorithm in Python, Ruby and C++
-http://www.fer.unizg.hr/predmet/bio
+Implementation of minimizer algorithm in Python, Ruby and C++ <br/>
+Link to Univeristy class webpage: http://www.fer.unizg.hr/predmet/bio
 
 Installation intructions and examples for:
 
---------Python---------
-To run the program execute:
-python minimizer.py [input_filename] [w] [k]
+#####--------Python---------<br/>
+To run the program execute:<br/>
+python minimizer.py [input_filename] [w] [k]<br/>
 
-Test files:
-Test files are located in the ./tests/ folder
-Results:
+Test files:<br/>
+Test files are located in the ./tests/ folder<br/>
+Results:<br/>
 The result is stored to ./output.txt in the current folder
 
----------Ruby----------
-To run the program execute:
-ruby minimizer.rb [input_filename] [w] [k]
+#####---------Ruby----------<br/>
+To run the program execute:<br/>
+ruby minimizer.rb [input_filename] [w] [k]<br/>
 
-Test files:
-Test files are located in the ./tests/ folder
-Results:
-The result is stored to ./output.txt in the current folder
+Test files:<br/>
+Test files are located in the ./tests/ folder<br/>
+Results:<br/>
+The result is stored to ./output.txt in the current folder<br/>
 
-----------C++----------
-Installation instructions:
-Run "make all" to compile the program
-Run "make clean" to clean the folder from .o and binary files
+#####----------C++----------<br/>
+Installation instructions:<br/>
+Run "make all" to compile the program<br/>
+Run "make clean" to clean the folder from .o and binary files<br/>
 
-To run the program execute:
-./minimizer [input_filename] [w] [k]
+To run the program execute:<br/>
+./minimizer [input_filename] [w] [k]<br/>
 
-Test files:
-Test files are located in the ./tests/ folder
-Results:
-The result is stored to ./output.txt in the current folder
+Test files:<br/>
+Test files are located in the ./tests/ folder<br/>
+Results:<br/>
+The result is stored to ./output.txt in the current folder<br/>
 
-To calculate the needed memory and execution time on Linux machines:
+To calculate the needed memory and execution time on Linux machines:<br/>
 
-Clone the repository from github:
-https://github.com/isovic/cgmemtime
-Add the group with sudo:
-$ sudo ./cgmemtime --setup -g myusergroup --perm 775
-(for myusergroup add your username)
-And you calculate with executing:
-./cgmemtime -o measurements.txt ./testa x 10 20 30
+Clone the repository from github:<br/>
+https://github.com/isovic/cgmemtime<br/>
+Add the group with sudo:<br/>
+$ sudo ./cgmemtime --setup -g myusergroup --perm 775<br/>
+(for myusergroup add your username)<br/>
+And you calculate with executing:<br/>
+./cgmemtime -o measurements.txt ./testa x 10 20 30<br/>
 In folder /sys/fs/memory add permissions to 777
